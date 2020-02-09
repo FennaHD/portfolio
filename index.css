@@ -1,0 +1,36 @@
+body {
+  margin: 0;
+  font-family: 'HartwellAlt-Bold', sans-serif;
+}
+
+.Menu {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #29abe2;
+}
+ .Menu li {
+  float: left;
+ }
+
+ .Menu li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+ }
+
+ .Menu li a:hover {
+   background-color: #333;
+ }
+
+ .Menu .active {
+   background-color: #fff;
+   color: #29abe2;
+ }
+
+ .Wrapper {
+   margin: 8px;
+ }
