@@ -1,6 +1,12 @@
+
 body {
   margin: 0;
   font-family: 'HartwellAlt-Bold', sans-serif;
+}
+
+.menu-wrapper {
+  display: flex;
+
 }
 
 .Menu {
@@ -31,6 +37,55 @@ body {
    color: #29abe2;
  }
 
- .Wrapper {
-   margin: 8px;
+ .title-container {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
  }
+
+ .title {
+   display: flex;
+   justify-content: center;
+ }
+
+@media only screen and (max-width: 400px) {
+  .Wrapper {
+    display:flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .all-wrapper {
+    display: flex;
+    flex-direction: column;
+    max-width: 90%
+  }
+}
+
+@media only screen and (min-width: 961px) {
+   .Wrapper {
+     display: flex;
+     justify-content: center;
+     flex-wrap: wrap;
+   }
+
+   .all-wrapper {
+     display: flex;
+     flex-direction: column;
+     max-width: 70%;
+   }
+
+   .content-container {
+     display: flex;
+     flex-direction: row;
+     justify-content: space-between;
+   }
+
+  .projects-container {
+    max-width: 48%;
+  }
+
+  .experience-container {
+    max-width: 48%;
+  }
+}
